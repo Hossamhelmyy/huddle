@@ -3,7 +3,7 @@
 body {
   margin: 0;
   padding: 0;
-  
+
 }
 * {
     box-sizing: border-box;
@@ -35,7 +35,7 @@ height:50px
   padding-top: 70px;
   display:flex;
 }
-@media (max-width: 500px) {
+@media (max-width: 400px) {
 .landing {
   background: url("/images/bg-mobile.svg") ;
   background-size:contain;
@@ -72,9 +72,30 @@ height:50px
   .logo img {
     height: 26px!important;
   }
-  .btn {
+  .btn-element {
 padding: 8px 60px !important;
 font-size: 12px;
+  }
+  
+  .icons {
+    display:flex;
+    justify-content: center!important;
+    margin-right: 25px;
+  }
+  .icons i { 
+    font-size: 11px !important;
+    text-align: center !important;
+  }
+  .icons i::after {
+    height :22px!important;
+    width: 21px!important;
+  }
+  .btn {
+    margin-bottom: 80px !important;
+  }
+  .icons i::after {
+    top: 4px !important;
+    right: -7px !important;
   }
 }
 .content__img img {
@@ -98,9 +119,39 @@ line-height: 1.5;
   display:block;
 }
 .btn {
+  margin-bottom: 180px;
+}
+.btn-element {
 background-color: white;
 border-radius: 50px;
 color: hsl(257, 40%, 49%);
 padding: 12px 50px;
 box-shadow: 0 2px 10px rgba(0, 0, 0, 40%);
+margin-bottom: 50px;
+}
+.icons {
+  display : flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.icons i { 
+  color :white;
+  margin-left: 30px;
+  position: relative;
+  font-size:15px;
+ 
+}
+.icons i::after {
+  content:"";
+  position: absolute;
+   border: 1px solid white;
+  top: 0;
+  right : -10px;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  transform: translateY(-10px);
+  
+  
+
 }
