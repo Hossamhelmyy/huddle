@@ -134,6 +134,12 @@ margin-bottom: 50px;
   align-items: flex-end;
   justify-content: flex-end;
 }
+.icons i:hover {
+  color:hsl(300, 69%, 71%);
+}
+.icons i:hover::after{
+  border: 1px solid hsl(300, 69%, 71%) !important;
+}
 .icons i { 
   color :white;
   margin-left: 30px;
@@ -144,7 +150,7 @@ margin-bottom: 50px;
 .icons i::after {
   content:"";
   position: absolute;
-   border: 1px solid white;
+  border: 1px solid white;
   top: 0;
   right : -10px;
   height: 32px;
@@ -152,6 +158,4 @@ margin-bottom: 50px;
   border-radius: 50%;
   transform: translateY(-10px);
   
-  
-
 }
