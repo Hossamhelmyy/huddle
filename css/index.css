@@ -78,7 +78,7 @@ font-size: 12px;
   .icons {
     display:flex;
     justify-content: center!important;
-    margin-right: 25px;
+    margin-right: 60px;
   }
   .icons i { 
     font-size: 11px !important;
@@ -87,14 +87,12 @@ font-size: 12px;
   .icons i::after {
     height :22px!important;
     width: 21px!important;
-  }
-  .btn {
-    margin-bottom: 80px !important;
-  }
-  .icons i::after {
     top: 4px !important;
     right: -7px !important;
   }
+  .btn {
+    margin-bottom: 80px !important;
+  
 }
 .content__img img {
 height :430px;
