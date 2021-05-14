@@ -151,14 +151,19 @@ cursor: pointer;
   position: relative;
   font-size:15px;
   cursor: pointer;
- 
+  
+}
+.icons li {
+  list-style: none;
+  display: flex;
+  justify-content: center;
 }
 .icons i::after {
   content:"";
   position: absolute;
   border: 1px solid white;
   top: 0;
-  right : -10px;
+  right : -11px;
   height: 32px;
   width: 32px;
   border-radius: 50%;
